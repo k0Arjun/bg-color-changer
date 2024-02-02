@@ -1,0 +1,27 @@
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 5px  rgba(256, 256, 256, 0.1);
+    background-color: beige;
+    color: #821096;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transition: ease;
+}
+button:hover{
+    top: 49.3%;
+    color:beige;
+    background-color: #821096;;
+}
+
